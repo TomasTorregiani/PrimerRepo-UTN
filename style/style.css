@@ -1,0 +1,15 @@
+img{
+    width: 250px;
+}
+h4{
+    text-decoration: underline;
+}
+form{
+    margin: 50px;
+    border: 2px solid black;
+    padding: 3rem;
+}
+.divSecundario{
+    background-color: rgb(241, 239, 239);
+    width: 50%;
+}
