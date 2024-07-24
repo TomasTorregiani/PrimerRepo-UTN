@@ -2,6 +2,12 @@ img{
     width: 250px;
     border-radius: 25px 0 25px 0;
 }
+.h1-principal:hover{
+    color: white;
+    background-color: black;
+    width: 19%;
+}
+
 h4{
     text-decoration: underline;
 }
@@ -9,6 +15,12 @@ form{
     margin: 50px;
     border: 2px solid black;
     padding: 3rem;
+    
+}
+.flex-form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 .divSecundario{
     background-color: rgb(241, 239, 239);
@@ -21,4 +33,7 @@ p{
     font-weight: 200;
     font-style: normal;
     font-variation-settings:"wdth" 100;
+}
+p::before{
+    content: '➡️'
 }
