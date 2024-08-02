@@ -1,0 +1,66 @@
+@charset "utf-8";
+/* CSS Document */
+
+body {
+	color: #000;
+	background: #332F29;
+	font-size:100%;
+}
+#contenedor {
+	width: 800px;
+	background: #8FA68E;
+	margin-right:auto;
+	margin-left:auto;
+	overflow: hidden;
+    @media screen and (max-width: 800px){
+        display: flex;
+        flex-direction: column;
+        margin: 0 0 15px 0 ;
+    }
+}
+nav {
+	background: #CC3910;
+	float: left;
+	width: 160px;
+    @media screen and (max-width: 800px){
+        width: 100%;
+        background: rgba(255, 217, 0, 0.774);
+    }
+}
+ul {
+	list-style-type:none;
+    @media screen and (max-width: 800px){
+        display: flex;
+        flex-direction: column;;
+    }
+}
+a {
+	color:#F1F2C0;
+	text-decoration: none;
+    @media screen and (max-width: 800px){
+        color: black;
+        margin: 5px;
+    }
+}
+section {
+	background: #F1F2C0;
+	float: left;
+	margin: 0 0 0 25px;
+	width: 400px;
+    @media screen and (max-width: 800px){
+        margin: 0;
+        width: 100%;
+        border-bottom:1px solid black ;
+        border-top: 1px solid black;
+        padding: 15px;
+    }
+}
+aside {
+	background: #CCC59E;
+	float: right;
+	width: 190px;
+    @media screen and (max-width: 800px){
+        width: 100%;
+        padding: 15px;
+    }
+}

@@ -6,6 +6,8 @@ img{
     color: white;
     background-color: black;
     width: 19%;
+    transform: translate(250px, 0);
+    transition: transform 1s;
 }
 
 h4{
@@ -26,6 +28,12 @@ form{
     background-color: rgb(241, 239, 239);
     width: 50%;
 }
+.divSecundario:hover{
+    background: #676470;
+    border: 2px solid black;
+    color: #fff;
+    transition: all 0.3s ease;
+}
 p{
     font-size: 20px;
     font-family: "Open Sans", sans-serif;
@@ -36,4 +44,8 @@ p{
 }
 p::before{
     content: '➡️'
+}
+img:hover{
+    transition: transform 1.5s;
+    transform: rotate(180deg);
 }
