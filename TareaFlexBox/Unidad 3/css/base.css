@@ -5,6 +5,9 @@ body {
 	color: #000;
 	background: #332F29;
 	font-size:100%;
+    @media screen and (max-width: 800px){
+        margin: 0
+    }
 }
 #contenedor {
 	width: 800px;
